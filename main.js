@@ -56,6 +56,7 @@ const deleteIssue = id => {
 const setStatusClosed = (id) => {
   closeIssue(id);
   updateCloseIssue();
+  updateOpenIssue();
   // let x = document.querySelector("#issuesList > div > h3");
   // x.style.textDecoration = "line-through";
 }
